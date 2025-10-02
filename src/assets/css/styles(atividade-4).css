@@ -1,0 +1,51 @@
+:root {
+    --primary-blue: #1e3a8a;
+    --secondary-blue: #3b82f6;
+    --accent-blue: #60a5fa;
+    --black: #111111;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem;
+}
+
+main {
+    background-color: var(--secondary-blue);
+    color: var(--black);
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+button {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: var(--secondary-blue);
+}
+
+a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
