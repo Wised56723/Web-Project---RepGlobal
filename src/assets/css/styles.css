@@ -28,20 +28,30 @@ footer {
     color: #888888;
 }
 
+.container {
+    margin:  auto;
+    max-width: 80%;
+    max-height: 80%;
+    padding: 1rem;
+}   
 
 /* Estilo para a caixa que vai ficar no canto */
 .atividade-links {
+    width: 20%;
+    height : 20;
+    font-size: 100;
+
     /* Posicionamento */
     position: fixed;     /* Fixa o elemento na tela, mesmo com rolagem */
-    bottom: 20px;        /* Distância de 20 pixels do rodapé da tela */
-    left: 20px;          /* Distância de 20 pixels da lateral esquerda */
+    bottom: 1%;        
+    left: 1%;         
 
     /* Aparência da caixa */
-    background-color: #ffffff; /* Uma cor de fundo para o quadrado */
+    background-color: #000000; /* Uma cor de fundo para o quadrado */
     border: 1px solid #444;   /* Uma borda sutil */
-    padding: 20px;             /* Espaçamento interno para os links não ficarem colados na borda */
+    padding: 2%;             /* Espaçamento interno para os links não ficarem colados na borda */
     border-radius: 8px;        /* Deixa os cantos arredondados */
-    width: auto;               /* A largura se ajustará ao conteúdo */
+                   /* A largura se ajustará ao conteúdo */
     
     /* Empilhamento (para garantir que fique na frente de outros elementos) */
     z-index: 1000;
@@ -50,7 +60,7 @@ footer {
 /* Estilo para os links dentro da caixa (opcional, mas recomendado) */
 .atividade-links a {
     display: block;          /* Faz cada link ocupar uma linha, empilhando-os */
-    margin-bottom: 10px;     /* Adiciona um espaço entre os links */
+    margin-bottom: 5%;     /* Adiciona um espaço entre os links */
     color: #a0c4ff;          /* Muda a cor dos links para uma melhor leitura */
     text-decoration: none;   /* Remove o sublinhado padrão */
 }
